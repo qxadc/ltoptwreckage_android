@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res" >
+            <file
+                name="icon"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\drawable-hdpi\icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon32"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\drawable-hdpi\icon32.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon64"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\drawable-hdpi\icon64.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\drawable-mdpi\icon.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\drawable-xhdpi\icon.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\drawable-xxhdpi\icon.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_result"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\layout\activity_result.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="notification_item_view"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\layout\notification_item_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="result_list_item"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\layout\result_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wreckage_list"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\layout\wreckage_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wreckage_list_item"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\layout\wreckage_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="result"
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\menu\result.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\values\arrays.xml"
+                qualifiers="" >
+                <string-array name="target_pre_defined" >
+
+        　　        
+                    <item>
+21360
+                    </item>
+
+        　　        
+                    <item>
+37800
+                    </item>
+
+        　　        
+                    <item>
+59160
+                    </item>
+
+        　　        
+                    <item>
+81560
+                    </item>
+                    <item>
+93160
+                    </item>
+                    <item>
+105510
+                    </item>
+
+        　　        
+                    <item>
+118610
+                    </item>
+                    <item>
+132460
+                    </item>
+                    <item>
+147060
+                    </item>
+
+        　　        
+                    <item>
+287760
+                    </item>
+
+        　　        
+                    <item>
+346920
+                    </item>
+                </string-array>
+                <string-array name="wreckages_list" >
+                    <item>
+400
+                    </item>
+                    <item>
+115200
+                    </item>
+                    <item>
+47728
+                    </item>
+                    <item>
+28800
+                    </item>
+                    <item>
+11936
+                    </item>
+
+        　　        
+                    <item>
+9648
+                    </item>
+
+        　　        
+                    <item>
+9600
+                    </item>
+
+        　　        
+                    <item>
+8440
+                    </item>
+
+        　　        
+                    <item>
+7232
+                    </item>
+                    <item>
+6024
+                    </item>
+                    <item>
+5996
+                    </item>
+
+        　　        
+                    <item>
+5328
+                    </item>
+
+        　　        
+                    <item>
+4816
+                    </item>
+
+        　　        
+                    <item>
+4800
+                    </item>
+                    <item>
+4660
+                    </item>
+                    <item>
+3992
+                    </item>
+
+        　　        
+                    <item>
+3324
+                    </item>
+
+        　　        
+                    <item>
+2756
+                    </item>
+
+        　　        
+                    <item>
+2656
+                    </item>
+                    <item>
+2448
+                    </item>
+                    <item>
+2140
+                    </item>
+
+        　　        
+                    <item>
+1832
+                    </item>
+
+        　　        
+                    <item>
+1524
+                    </item>
+
+        　　        
+                    <item>
+1216
+                    </item>
+                    <item>
+自定义
+                    </item>
+                </string-array>
+                <string-array name="allowed_errors" >
+
+        　　        
+                    <item>
+100
+                    </item>
+
+        　　        
+                    <item>
+200
+                    </item>
+
+        　　        
+                    <item>
+300
+                    </item>
+
+        　　        
+                    <item>
+400
+                    </item>
+                    <item>
+500
+                    </item>
+
+        　　        
+                    <item>
+600
+                    </item>
+
+        　　        
+                    <item>
+700
+                    </item>
+
+        　　        
+                    <item>
+800
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="title_activity_result" >残骸组合
+                </string>
+                <string name="app_name" >雷霆经验优化
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+            </file>
+            <file
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\main\res\values-w820dp\dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+        </source>
+        <source path="F:\YuanYu\android_workspace\LtOptWreckage\app\build\generated\res\rs\debug" />
+        <source path="F:\YuanYu\android_workspace\LtOptWreckage\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="F:\YuanYu\android_workspace\LtOptWreckage\app\src\debug\res" />
+    </dataSet>
+
+</merger>

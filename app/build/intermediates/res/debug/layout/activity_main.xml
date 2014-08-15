@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="目标经验:"
+                android:id="@+id/texViewTarget"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="left" />
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="37800"
+                android:id="@+id/autoCompTarget"
+                android:layout_weight="1"
+                android:completionThreshold="1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预设"
+                android:id="@+id/buttonPresetTarget" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="最大多余经验:"
+                android:id="@+id/textViewAllowedError"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="left" />
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="200"
+                android:id="@+id/autoCompAllowedError"
+                android:layout_weight="1"
+                android:completionThreshold="1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预设"
+                android:id="@+id/buttonPresetAllowedError" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" >
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选择残骸组合后自动减掉其数量"
+            android:id="@+id/switchAutoDecrease"
+            android:textOff="关"
+            android:textOn="开"
+            android:checked="true"
+            android:textAppearance="@android:style/TextAppearance.Small" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/listPreferredItemHeightSmall"
+                android:id="@+id/spinnerWreckages"
+                android:layout_weight="1"
+                style="?android:attr/dropDownSpinnerStyle"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:singleLine="true"
+                android:ellipsize="marquee" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="添加残骸"
+                android:id="@+id/buttonAddWreckage"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff41a612"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="残骸"
+                android:id="@+id/textView"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="最大数量"
+                android:id="@+id/textView2"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="操作"
+                android:id="@+id/textView3"
+                android:gravity="center_vertical|right"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView" />
+    </LinearLayout><!-- From: file:/F:/YuanYu/android_workspace/LtOptWreckage/app/src/main/res/layout/activity_main.xml -->
